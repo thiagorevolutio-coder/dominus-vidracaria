@@ -77,3 +77,4 @@
     if (item.open) $$('.faq details').forEach(other => { if (other !== item) other.open = false; });
   }));
 })();
+
