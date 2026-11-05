@@ -35,7 +35,7 @@ footer{position:relative;overflow:hidden;padding:90px max(24px,calc((100vw - 118
   .showcase,.quote-shell{grid-template-columns:minmax(0,1fr)}
 }
 
-/* Base de superfícies de vidro da prévia. */
+/* Sistema visual premium: azul-noite, ciano luminoso e superfícies de vidro. */
 body{color:#edf8ff;background:#020919}
 .site-header{height:80px;border-color:rgba(93,235,255,.2);background:rgba(2,10,30,.84);box-shadow:0 18px 55px rgba(0,0,0,.28),inset 0 1px rgba(255,255,255,.08)}
 .site-header.scrolled{height:72px;background:rgba(2,9,27,.95);box-shadow:0 16px 45px rgba(0,0,0,.36)}
@@ -76,16 +76,6 @@ footer{border-top:1px solid rgba(75,235,241,.16);background:#010716}
 @media(max-width:900px){.site-header nav{color:#eafcff;border-color:rgba(86,236,241,.18);background:rgba(2,12,34,.98)}.brand-image{width:165px;height:55px}.service-graphic{right:24px;width:58%}.shape{opacity:0}.shape.visible{opacity:.4}.shape-panel{width:110px;height:170px}.shape-ring{width:105px;height:105px}.shape-diamond{width:75px;height:75px}}
 @media(prefers-reduced-motion:reduce){.shape{opacity:.35;transform:none;filter:none}.reveal{clip-path:none;filter:none}}
 
-/* Identidade Dominus: verde técnico sobre preto, com contraste suave para leitura. */
-:root{--navy:#06160e;--navy-2:#0a3520;--blue:#24b957;--cyan:#8fe86e;--violet:#56bd74;--ink:#06160e;--shadow:0 28px 70px rgba(2,28,13,.22)}
-.site-header{border-color:rgba(99,234,137,.19);background:rgba(3,16,8,.88)}
-.brand-image img{border-radius:12px}.nav-cta,.btn-primary{background:linear-gradient(120deg,#b8ee78,#27b95b);color:#04170b;box-shadow:0 18px 38px rgba(35,180,81,.25)}
-.hero{background:radial-gradient(circle at 84% 22%,rgba(83,202,91,.17),transparent 31%),radial-gradient(circle at 16% 0,rgba(159,238,106,.13),transparent 32%),linear-gradient(145deg,#020804,#061c0d 58%,#031108)}
-.hero h1 em,.eyebrow,.hero .eyebrow,.section-heading h2 em,.faq h2 em,.testimonials h2 em{color:#a5ed78}.hero-aurora i:nth-child(1){background:#46cf72}.hero-aurora i:nth-child(2){background:#1a9d52}.hero-aurora i:nth-child(3){background:#a3e56f}
-.intro,.process,.faq{background:linear-gradient(160deg,#031108,#062515 55%,#04170c)}.service-cyan{background:linear-gradient(145deg,#0b4826,#08371d 56%,#042111)}.service-blue{background:linear-gradient(145deg,#123d22,#0a2e18 58%,#061b0e)}.service-violet{background:linear-gradient(145deg,#224724,#17361b 58%,#0a210f)}.service-sky{background:linear-gradient(145deg,#13502b,#0b3c20 58%,#061e10)}
-.company,.location,.showcase{background:linear-gradient(145deg,#020804,#072615)}.quote{background:linear-gradient(145deg,#031208,#0a4423)}.testimonials{background:radial-gradient(circle at 15% 20%,rgba(117,232,104,.12),transparent 28%),linear-gradient(160deg,#031108,#072616)}
-.company-detail{border-color:#a7ec76}.company-seal,.choice-grid label>span{background:linear-gradient(145deg,#dcffc3,#56c866)}.map-label>span,.rating-card span{color:#a8ed78;background-color:#5ecb66}.service-copy>p{color:#a8ed78}.service-copy button b{background:#a8ed78}.process-icon{background:linear-gradient(145deg,#1e7d43,#7bd866)}
-
 /* Estrutura institucional, SEO local e elementos gráficos da marca. */
 html{scroll-padding-top:108px}main>section{scroll-margin-top:108px}
 .button-icon{width:42px;height:42px;display:grid;flex:0 0 42px;place-items:center;border-radius:13px;color:#041a37;background:rgba(255,255,255,.42);box-shadow:inset 0 0 0 1px rgba(255,255,255,.35),0 10px 26px rgba(0,30,70,.18);transition:transform .25s ease,background .25s ease}.button-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.btn:hover .button-icon{transform:translate(3px,-2px) rotate(-3deg);background:#fff}.btn-ghost .ghost-icon{color:#bffcff;background:linear-gradient(145deg,rgba(27,114,172,.8),rgba(0,208,201,.7))}.btn-ghost .ghost-icon svg{width:23px;height:23px}.hero-actions .btn{min-height:66px;padding:7px 8px 7px 24px}.hero-actions .btn-ghost{padding-left:12px;padding-right:22px}.hero-actions .btn-ghost .button-icon{margin-right:8px}
@@ -99,3 +89,4 @@ html{scroll-padding-top:108px}main>section{scroll-margin-top:108px}
 .nav-cta span{display:grid;place-items:center}.nav-cta svg,.footer-cta svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.footer-cta a b{display:grid;place-items:center}
 @media(max-width:1000px){.company,.location{grid-template-columns:1fr;gap:50px}.company-gallery{min-height:520px}.company-copy{max-width:760px}.testimonial-grid{grid-template-columns:1fr 1fr}.testimonial-card:last-child{grid-column:1/-1}.map-shell{min-height:440px}.map-shell iframe{height:440px}}
 @media(max-width:780px){html{scroll-padding-top:88px}main>section{scroll-margin-top:88px}.hero-actions .btn{min-height:60px}.services-grid{gap:18px}.service-card{min-height:500px}.service-photo{height:260px}.service-copy{padding:21px}.service-copy h3{font-size:1.55rem}.company{padding-top:88px;padding-bottom:88px}.company-gallery{min-height:410px}.company-main{inset:0 36px 52px 0;border-width:4px;border-radius:30px 8px}.company-detail{width:50%;height:44%;border-width:4px}.company-seal{left:8px;bottom:6px;width:118px;height:118px}.company-copy h2,.location-copy h2,.testimonials h2{font-size:clamp(2.7rem,13vw,4rem)}.process-track{grid-template-columns:1fr}.testimonials-head{align-items:stretch;flex-direction:column}.rating-card{min-width:0}.testimonial-grid{grid-template-columns:1fr}.testimonial-card:last-child{grid-column:auto}.testimonial-card{min-height:255px}.testimonial-card>p{min-height:100px}.location{padding-top:88px;padding-bottom:88px}.map-shell{min-height:390px;border-width:4px;border-radius:30px 8px}.map-shell iframe{height:390px}.map-label{left:12px;right:12px;bottom:12px}.floating-whatsapp{min-width:58px;height:58px;padding:7px}.floating-whatsapp b{display:none}.floating-whatsapp span{width:44px;height:44px}}
+
