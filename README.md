@@ -1,7 +1,9 @@
-# Template Vidraçarias Premium Conversão
+# Dominus Vidraçaria
 
-Referência visual baseada no site Fortvidros aprovado pelo usuário. Preserve o design azul-marinho e ciano, as molduras de vidro, as formas animadas, a estrutura empresarial e a responsividade.
+Prévia institucional para a Dominus Vidraçaria em Fortaleza, Ceará.
 
-Ao criar uma nova prévia, substitua obrigatoriamente nome, logo, telefone, cidade, endereço, links, domínio, depoimentos e metadados. Mantenha uma única palavra-chave local no H1, serviços com imagens e CTA, seção institucional, processo curto, depoimentos, orçamento pelo WhatsApp, mapa e FAQ.
+## Publicação
 
-Edite `src/` e execute `npm run build` antes de publicar.
+O deploy é automatizado via GitHub Pages a partir da pasta `dist/`.
+
+> Projeto demonstrativo. Antes de uso comercial definitivo, valide dados de contato, portfólio, depoimentos e domínio.
